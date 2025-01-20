@@ -1,0 +1,99 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Навигация */
+nav {
+  background-color: #007bff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a.active {
+  border-bottom: 2px solid white;
+}
+
+/* Главная структура */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Список книг */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+li:hover {
+  background-color: #e9ecef;
+}
+
+li a {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Лоадер */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Ошибки и сообщения */
+.error {
+  color: red;
+  font-weight: bold;
+  margin: 20px 0;
+}
